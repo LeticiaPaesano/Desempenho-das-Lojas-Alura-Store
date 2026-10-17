@@ -1,7 +1,7 @@
 <h1 align="center">🏪 Alura Store: Qual loja priorizar para encerramento?</h1>
 
 <p align="center">
-  Análise de dados com visão de gestão financeira para apoiar uma decisão estratégica de portfólio.
+  Análise de dados com visão de gestão financeira para apoiar uma decisão estratégica de encerramento de loja.
 </p>
 
 <p align="center">
@@ -16,6 +16,7 @@
 ## 📌 Resumo Executivo
 
 A rede Alura Store possui **4 lojas** e precisa decidir qual delas deve ser **priorizada para uma possível análise de encerramento**.
+
 
 > **Resultado:** a **Loja 4** é a candidata mais forte. Ela tem o menor faturamento, o menor ticket médio e a maior queda nos últimos 12 meses, e foi a pior colocada em **98% de 10.000 ponderações simuladas** no scorecard.
 
