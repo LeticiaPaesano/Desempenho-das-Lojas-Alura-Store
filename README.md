@@ -72,7 +72,7 @@ Por isso, o projeto vai além do ranking simples: valida os dados, usa a série 
 ### 1. Faturamento e ticket médio
 
 <p align="center">
-  <img src="imagens/01_faturamento_ticket.png" alt="Faturamento acumulado e ticket médio por loja" width="90%">
+  <<img width="1522" height="587" alt="Faturamento acumulado e ticket medio por venda" src="https://github.com/user-attachments/assets/36edbd36-5005-4cef-b58b-839b3a248ac0" />
 </p>
 
 A Loja 4 tem o menor faturamento e o menor ticket. Como o número de vendas é praticamente igual entre as lojas (~2.359), a diferença **não é de volume, e sim de valor por venda**.
@@ -80,19 +80,19 @@ A Loja 4 tem o menor faturamento e o menor ticket. Como o número de vendas é p
 ### 2. Tendência: onde a Loja 4 se destaca negativamente
 
 <p align="center">
-  <img src="imagens/02_tendencia_trimestral.png" alt="Faturamento trimestral e acumulado em 12 meses móveis" width="95%">
+<img width="1628" height="620" alt="Faturamento trimestral e faturamento acumulado em 12 meses moveis" src="https://github.com/user-attachments/assets/c78ba0dd-0ac4-4340-bac7-d3974db784e7" />
 </p>
 
 No gráfico de 12 meses móveis, a Loja 4 cai de cerca de R$ 471 mil (2022T1) para R$ 349 mil (2023T1). A Loja 3 também cai, mas partiu de um pico atípico em 2021T4.
 
 <p align="center">
-  <img src="imagens/03_heatmap_variacao_anual.png" alt="Variação anual do faturamento por trimestre" width="95%">
+<img width="1394" height="477" alt="Variacao anual do faturamento por trimestre" src="https://github.com/user-attachments/assets/03ef54b8-763d-4226-90e3-fc31caad9c2e" />
 </p>
 
 A Loja 4 acumula **4 trimestres consecutivos de queda** na comparação anual: -17%, -21%, -21% e -41%.
 
 <p align="center">
-  <img src="imagens/04_variacao_12m.png" alt="Variação em 12 meses" width="70%">
+<img width="1082" height="532" alt="Variacao do faturamento ultimos 12 meses vs 12 meses anteriores" src="https://github.com/user-attachments/assets/0c6ef081-63f4-40d9-af92-5171c5e53817" />
 </p>
 
 | Loja | Variação em 12 meses |
@@ -107,7 +107,7 @@ A Loja 4 acumula **4 trimestres consecutivos de queda** na comparação anual: -
 ### 3. Scorecard e teste de sensibilidade
 
 <p align="center">
-  <img src="imagens/05_scorecard_sensibilidade.png" alt="Scorecard por critério e probabilidade de ser a pior loja" width="95%">
+<img width="1632" height="532" alt="Ranking por criterio e % das ponderacoes em que a loja e a pior" src="https://github.com/user-attachments/assets/a4510dce-722f-4797-ad1d-4591dc29e493" />
 </p>
 
 O scorecard combina faturamento, ticket médio, variação em 12 meses e proporção de avaliações baixas. Para não depender de uma ponderação única, sorteei **10.000 combinações de pesos**:
@@ -122,7 +122,7 @@ O scorecard combina faturamento, ticket médio, variação em 12 meses e propor�
 ### 4. Onde está a diferença: mix de categorias
 
 <p align="center">
-  <img src="imagens/06_gap_categorias.png" alt="Diferença da Loja 4 vs. média das demais por categoria" width="95%">
+<img width="1664" height="587" alt="Loja 4 vs media das demais e diferenca de participacao no mix" src="https://github.com/user-attachments/assets/9d669f4d-e557-47d3-862b-a6992d8e3680" />
 </p>
 
 - Do gap de **R$ 111 mil** frente à média das demais lojas, **99% vêm do ticket** e menos de 1% do volume.
@@ -132,7 +132,7 @@ O scorecard combina faturamento, ticket médio, variação em 12 meses e propor�
 ### 5. Visão financeira: o fechamento compensa?
 
 <p align="center">
-  <img src="imagens/07_equilibrio_financeiro.png" alt="Custo fixo anual de equilíbrio da Loja 4" width="75%">
+<img width="1015" height="422" alt="Custo fixo anual de equilibrio" src="https://github.com/user-attachments/assets/e7896cab-e504-4589-bf56-1ae34b587c98" />
 </p>
 
 A Loja 4 faturou **R$ 349 mil** nos últimos 12 meses. O fechamento só cria valor se o **custo fixo anual evitado** (aluguel, folha, outras despesas) for maior que a contribuição que a loja ainda gera:
@@ -181,51 +181,32 @@ Para uma leitura honesta dos resultados:
 
 ## 💡 Recomendação
 
-> **Priorizar a Loja 4 para análise de encerramento**, condicionando a decisão final a:
-> 1. custo fixo anual real superior à faixa de equilíbrio da tabela acima;
-> 2. estimativa dos custos de encerramento.
+> [!CAUTION]
+> ### 🔴 LOJA A PRIORIZAR PARA ENCERRAMENTO: **LOJA 4**
 >
-> **Se o custo fixo for baixo**, manter a loja com um plano de recuperação focado em eletrodomésticos e revisão trimestral. O reposicionamento do mix sozinho recuperaria no máximo ~R$ 37 mil de receita por ano (teto teórico), o que não reverte a queda de R$ 122 mil em 12 meses, então precisaria vir acompanhado de redução de custos.
+> Menor faturamento, menor ticket médio, maior queda em 12 meses (**-25,9%**) e pior colocada em **98%** das ponderações simuladas.
+
+**Decisão final condicionada a:**
+
+1. 🔴 custo fixo anual real da Loja 4 **superior** à faixa de equilíbrio da tabela acima (R$ 49 mil a R$ 140 mil);
+2. estimativa dos custos de encerramento (rescisões, multa de aluguel, estoque).
+
+**Se o custo fixo for baixo:** manter a Loja 4 com um plano de recuperação focado em eletrodomésticos e revisão trimestral. O reposicionamento do mix sozinho recuperaria no máximo ~R$ 37 mil de receita por ano (teto teórico), o que não reverte a queda de R$ 122 mil em 12 meses, então precisaria vir acompanhado de redução de custos.
+
+**Segunda loja a monitorar:** 🟠 Loja 3 (-15,0% em 12 meses).
 
 ---
 
 ## 🚀 Como executar
 
-```bash
-# 1. Clone o repositório
-git clone https://github.com/[seu-usuario]/[nome-do-repositorio].git
-cd [nome-do-repositorio]
+abra diretamente no Google Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([link-do-seu-colab])
 
-# 2. Instale as dependências
-pip install -r requirements.txt
+### Arquivos utilizados
 
-# 3. Abra o notebook
-jupyter notebook analise_alura_store.ipynb
-```
+As quatro bases CSV utilizadas nesta análise estão disponíveis na página de fontes de dados.
 
-Ou abra diretamente no Google Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([link-do-seu-colab])
+[**Consultar as fontes de dados**](fontes_dados.md)
 
-**requirements.txt**
-```
-pandas>=2.2
-numpy
-matplotlib
-seaborn
-scipy
-```
-
----
-
-## 📁 Estrutura do repositório
-
-```
-├── analise_alura_store.ipynb   # Notebook completo
-├── imagens/                    # Gráficos usados no README
-├── requirements.txt
-└── README.md
-```
-
----
 
 ## 🛠️ Tecnologias
 
@@ -235,8 +216,8 @@ Python · pandas · NumPy · Matplotlib · Seaborn · SciPy
 
 ## 👤 Autor
 
-**[Seu Nome]**
-[LinkedIn]([seu-linkedin]) · [GitHub]([seu-github])
+**Letícia Paesano Lima**
+[LinkedIn](https://www.linkedin.com/in/leticiapaesano/) · [GitHub](https://github.com/LeticiaPaesano)
 
 ---
 
