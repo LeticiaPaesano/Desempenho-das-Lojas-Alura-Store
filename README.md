@@ -200,7 +200,7 @@ Para uma leitura honesta dos resultados:
 
 ## 🚀 Como executar
 
-abra diretamente no Google Colab: [![Open In Colab](https://github.com/LeticiaPaesano/Desempenho-das-Lojas-Alura-Store/blob/main/analise_financeira_alura_store.ipynb)
+abra diretamente no Google Colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/LeticiaPaesano/Desempenho-das-Lojas-Alura-Store/blob/main/analise_financeira_alura_store.ipynb)
 
 ### Arquivos utilizados
 
