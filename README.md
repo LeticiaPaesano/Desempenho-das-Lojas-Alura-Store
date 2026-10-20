@@ -5,30 +5,30 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white" alt="Python">
-  <img src="https://img.shields.io/badge/pandas-data%20analysis-150458?logo=pandas&logoColor=white" alt="pandas">
-  <img src="https://img.shields.io/badge/SciPy-estat%C3%ADstica-8CAAE6?logo=scipy&logoColor=white" alt="SciPy">
-  <img src="https://img.shields.io/badge/Status-conclu%C3%ADdo-success" alt="Status">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat&logo=python&logoColor=white" alt="Python 3.10+">
+  <img src="https://img.shields.io/badge/pandas-Data%20Analysis-150458?style=flat&logo=pandas&logoColor=white" alt="pandas">
+  <img src="https://img.shields.io/badge/SciPy-Estat%C3%ADstica-8CAAE6?style=flat&logo=scipy&logoColor=white" alt="SciPy">
+  <img src="https://img.shields.io/badge/Status-Conclu%C3%ADdo-2EA44F?style=flat" alt="Status: Concluído">
 </p>
 
 ---
 
 ## 📌 Resumo Executivo
 
-A rede Alura Store possui **4 lojas** e precisa decidir qual delas deve ser **priorizada para uma possível análise de encerramento**.
+**Decisão em pauta:** qual das 4 lojas da rede deve ser priorizada para encerramento.
+
+**Decisão:** com base nos dados comerciais disponíveis, a **Loja 4 é a unidade escolhida para encerramento**. Ela tem o pior desempenho em faturamento, ticket médio e tendência recente.
+
+> ⚠️ **Decisão com ressalvas:** a base não contém custos, margens nem lucro. A decisão se apoia no **desempenho comercial**, não na rentabilidade (detalhes na seção final).
 
 
-> **Resultado:** a **Loja 4** é a candidata mais forte. Ela tem o menor faturamento, o menor ticket médio e a maior queda nos últimos 12 meses, e foi a pior colocada em **98% de 10.000 ponderações simuladas** no scorecard.
-
-| Indicador | Loja 4 |
-|---|---|
-| Faturamento acumulado | R$ 1.384.498 (23,6% do total) |
-| Ticket médio | R$ 587,15 (média das demais: R$ 634,02) |
-| Variação nos últimos 12 meses | **-25,9%** |
-| Último trimestre vs. ano anterior | **-41,3%** |
-| Pior colocada no scorecard | **98%** das simulações |
-
-⚠️ **Ressalva importante:** a base não contém custos, margens ou lucro. A conclusão é sobre **desempenho comercial**, não sobre rentabilidade. A decisão final depende dos custos reais da loja (veja a seção [Limitações](#-limitações)).
+| Indicador                                            | Loja 4                        | Referência                                                   |
+|------------------------------------------------------|-------------------------------|--------------------------------------------------------------|
+| Faturamento acumulado (39 meses)                     | R$ 1.384.498 (23,6%)          | Último lugar                                                 |
+| Ticket médio                                         | R$ 587,15                     | Média das demais: R$ 634,02 (-7,4%)                          |
+| Variação nos últimos 12 meses                        | **-25,9%**                    | Lj3: -15,0% · Lj1: -3,8% · Lj2: -0,2%                        |
+| Último trimestre vs. mesmo trimestre do ano anterior | **-41,3%**                    | Menor faturamento trimestral entre todas as lojas e períodos |
+| Pior colocada no scorecard                           | **98%** de 10.000 ponderações | Consistência direcional, não probabilidade                   |
 
 ---
 
@@ -76,7 +76,7 @@ Por isso, o projeto vai além do ranking simples: valida os dados, usa a série 
   <<img width="1522" height="587" alt="Faturamento acumulado e ticket medio por venda" src="https://github.com/user-attachments/assets/36edbd36-5005-4cef-b58b-839b3a248ac0" />
 </p>
 
-A Loja 4 tem o menor faturamento e o menor ticket. Como o número de vendas é praticamente igual entre as lojas (~2.359), a diferença **não é de volume, e sim de valor por venda**.
+A Loja 4 tem o menor faturamento e o menor ticket médio. Como o número de vendas é praticamente igual entre as lojas (~2.359), a diferença **não é de volume, e sim de valor por venda**.
 
 ### 2. Tendência: onde a Loja 4 se destaca negativamente
 
@@ -84,7 +84,7 @@ A Loja 4 tem o menor faturamento e o menor ticket. Como o número de vendas é p
 <img width="1628" height="620" alt="Faturamento trimestral e faturamento acumulado em 12 meses moveis" src="https://github.com/user-attachments/assets/c78ba0dd-0ac4-4340-bac7-d3974db784e7" />
 </p>
 
-No gráfico de 12 meses móveis, a Loja 4 cai de cerca de R$ 471 mil (2022T1) para R$ 349 mil (2023T1). A Loja 3 também cai, mas partiu de um pico atípico em 2021T4.
+acumulado de 12 meses móveis, a Loja 4 cai de cerca de R$ 471 mil (2022T1) para R$ 349 mil (2023T1). uma perda de aproximadamente R$ 122 mil. O faturamento do último trimestre (cerca de R$ 76 mil) é o menor da série entre todas as lojas.
 
 <p align="center">
 <img width="1394" height="477" alt="Variacao anual do faturamento por trimestre" src="https://github.com/user-attachments/assets/03ef54b8-763d-4226-90e3-fc31caad9c2e" />
